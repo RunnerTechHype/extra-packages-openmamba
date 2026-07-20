@@ -1,0 +1,5 @@
+[extra-packages-openmamba-unofficial]
+name=Extra Packages for openMamba GNU/Linux Unofficial
+baseurl=https://runnertechhype.github.io/extra-packages-openmamba/
+enabled=1
+gpgcheck=0
