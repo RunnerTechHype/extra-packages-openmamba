@@ -13,7 +13,7 @@ This project aims to:
 - Maintain both free/open-source and proprietary software options
 - Support users who need specialized tools and applications
 - Foster community contributions and package maintenance
-- Port packages from Packman, EPEL, and AUR to openMamba
+- Port packages from upstream sources to openMamba
 
 ## Available Packages
 
@@ -72,6 +72,16 @@ We also maintain select proprietary/non-OSS packages that users may require, inc
 - Check compatibility with your openMamba version
 - Community support only (not official openMamba support)
 
+## Credits & Attribution
+
+This project sources and ports packages from the following upstream projects with respect and gratitude:
+
+- **[Fedora Project](https://fedoraproject.org/)** (EPEL - Extra Packages for Enterprise Linux)
+- **[Packman Team](https://packman.team/)** (Multimedia and additional packages for openSUSE)
+- **[Arch Linux](https://archlinux.org/)** (AUR - Arch User Repository)
+
+We thank these communities for their excellent work and package maintenance. This project adapts and ports their packages to be compatible with openMamba GNU/Linux.
+
 ## Status
 
 🚧 **WORK IN PROGRESS** - This repository and documentation are actively being developed. More packages and documentation will be added soon.
@@ -82,7 +92,7 @@ Contributions are welcome! Please check back for contribution guidelines (coming
 
 ## License
 
-See LICENSE file for details on individual package licensing.
+See LICENSE file for details on individual package licensing. Each package retains its original license from its upstream source.
 
 ---
 
