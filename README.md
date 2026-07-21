@@ -76,9 +76,9 @@ We also maintain select proprietary/non-OSS packages that users may require, inc
 
 This project sources and ports packages from the following upstream projects with respect and gratitude:
 
-- **[Fedora Project](https://fedoraproject.org/)** (EPEL - Extra Packages for Enterprise Linux)
-- **[Packman Team](https://packman.team/)** (Multimedia and additional packages for openSUSE)
-- **[Arch Linux](https://archlinux.org/)** (AUR - Arch User Repository)
+- **[Fedora Project / EPEL](https://fedoraproject.org/wiki/EPEL)** – Extra Packages for Enterprise Linux
+- **[Packman Team](http://packman.links2linux.org/)** – Multimedia and additional packages for openSUSE
+- **[Arch Linux / AUR](https://aur.archlinux.org/)** – Arch User Repository
 
 We thank these communities for their excellent work and package maintenance. This project adapts and ports their packages to be compatible with openmamba GNU/Linux.
 
