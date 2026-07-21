@@ -4,7 +4,7 @@
 
 ## Overview
 
-Extra Packages for openMamba is an unofficial community-driven repository providing additional software packages for openMamba GNU/Linux users. We curate and maintain both open-source (OSS) and non-open-source packages to extend the available software ecosystem beyond the official openMamba repositories.
+Extra Packages for openMamba is an unofficial community-driven repository providing additional software packages for openMamba GNU/Linux users. We curate and maintain both open-source (OSS) and non-open-source software options.
 
 ## Purpose & Scope
 
@@ -13,6 +13,7 @@ This project aims to:
 - Maintain both free/open-source and proprietary software options
 - Support users who need specialized tools and applications
 - Foster community contributions and package maintenance
+- Port packages from Packman, EPEL, and AUR to openMamba
 
 ## Available Packages
 
@@ -35,15 +36,20 @@ We also maintain select proprietary/non-OSS packages that users may require, inc
 
 ### For openMamba Users
 
-1. **Add the repository** (instructions coming soon)
+1. **Add the repository**
+   ```bash
+   sudo dnf5 config-manager --add-repo=https://runnertechhype.github.io/extra-packages-openmamba/
+   ```
+
 2. **Update your package manager**
    ```bash
-   # Update package lists
+   sudo dnf5 update
    ```
 
 3. **Install packages**
    ```bash
-   # Example installation commands coming soon
+   # Example: Install a package from the repository
+   sudo dnf5 install <package-name>
    ```
 
 ## Usage Guidelines
