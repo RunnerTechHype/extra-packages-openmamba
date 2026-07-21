@@ -1,15 +1,15 @@
 # extra-packages-openmamba
 
-> **Note:** This project is currently **WORK IN PROGRESS** and is **NOT officially affiliated** with openMamba GNU/Linux.
+> **Note:** This project is currently **WORK IN PROGRESS** and is **NOT officially affiliated** with openmamba GNU/Linux.
 
 ## Overview
 
-Extra Packages for openMamba is an unofficial community-driven repository providing additional software packages for openMamba GNU/Linux users. We curate and maintain both open-source (OSS) and non-open-source software options.
+Extra Packages for openMamba is an unofficial community-driven repository providing additional software packages for openmamba GNU/Linux users. We curate and maintain both open-source (OSS) and non-open-source software options.
 
 ## Purpose & Scope
 
 This project aims to:
-- Provide additional packages not available in official openMamba repositories
+- Provide additional packages not available in official openmamba repositories
 - Maintain both free/open-source and proprietary software options
 - Support users who need specialized tools and applications
 - Foster community contributions and package maintenance
@@ -65,7 +65,7 @@ We also maintain select proprietary/non-OSS packages that users may require, inc
 
 ## Important Notice
 
-⚠️ **This project is unofficial and NOT affiliated with openMamba GNU/Linux**
+⚠️ **This project is unofficial and NOT affiliated with openmamba GNU/Linux**
 
 - Use packages at your own discretion
 - Always verify package integrity and licensing
@@ -80,7 +80,7 @@ This project sources and ports packages from the following upstream projects wit
 - **[Packman Team](https://packman.team/)** (Multimedia and additional packages for openSUSE)
 - **[Arch Linux](https://archlinux.org/)** (AUR - Arch User Repository)
 
-We thank these communities for their excellent work and package maintenance. This project adapts and ports their packages to be compatible with openMamba GNU/Linux.
+We thank these communities for their excellent work and package maintenance. This project adapts and ports their packages to be compatible with openmamba GNU/Linux.
 
 ## Status
 
@@ -96,4 +96,4 @@ See LICENSE file for details on individual package licensing. Each package retai
 
 ---
 
-For more information about openMamba GNU/Linux, visit: [openMamba Official Website](https://www.openmamba.org/)
+For more information about openMamba GNU/Linux, visit: [openmamba Official Website](https://www.openmamba.org/)
