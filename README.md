@@ -38,12 +38,12 @@ We also maintain select proprietary/non-OSS packages that users may require, inc
 
 1. **Add the repository**
    ```bash
-   sudo dnf5 config-manager --add-repo=https://runnertechhype.github.io/extra-packages-openmamba/
+   sudo dnf5 config-manager addrepo --from-repofile=https://runnertechhype.github.io/extra-packages-openmamba/extra-packages-openmamba.repo
    ```
 
 2. **Update your package manager**
    ```bash
-   sudo dnf5 update
+   sudo dnf5 makecache && sudo dnf5 update
    ```
 
 3. **Install packages**
@@ -96,4 +96,4 @@ See LICENSE file for details on individual package licensing. Each package retai
 
 ---
 
-For more information about openMamba GNU/Linux, visit: [openmamba Official Website](https://www.openmamba.org/)
+For more information about openmamba GNU/Linux, visit: [openmamba Official Website](https://www.openmamba.org/)
