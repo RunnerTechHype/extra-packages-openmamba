@@ -43,7 +43,7 @@ We also maintain select proprietary/non-OSS packages that users may require, inc
 
 2. **Update your package manager**
    ```bash
-   sudo dnf5 makecache && sudo dnf5 update
+   sudo dnf5 makecache && sudo dnf5 update --refresh
    ```
 
 3. **Install packages**
